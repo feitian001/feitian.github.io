@@ -1,0 +1,31 @@
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <title></title>
+    <script type="text/javascript">
+        function jsText(text){
+            document.getElementById('ttt').innerHTML=text;
+        }
+    function show(str){
+        alert(str)
+    }
+
+    </script>
+    <script>
+      var jsonStr={
+    "title": "测试标题",
+    "userName": "gh_317f53f9f8bb",
+    "path": "pages/play/index?cid=fvue88y1fsnk4w2&ptag=vicyao&seek=3219",
+    "description": "测试内容",
+    "webpageUrl": "www.baidu.com",
+    "imgUrl": "http://img4.imgtn.bdimg.com/it/u=2728385433,2457016079&fm=27&gp=0.jpg"
+}
+
+    </script>
+</head>
+<body>
+    <!--browser.shareWxFriend(JSON.stringify(jsonStr))-->
+<input type="button" onclick="show('123')" value="调用系统api"/><br/>
+
+</body>
+</html>
